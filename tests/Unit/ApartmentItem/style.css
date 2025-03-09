@@ -1,0 +1,53 @@
+.btn {
+    @apply rounded-full bg-muted uppercase font-bold outline-none
+        duration-200 transition-all ease-in-out min-w-24;
+
+    &:focus {
+        @apply outline-none;
+    }
+
+    &--primary {
+        @apply bg-primary text-white;
+
+        &:hover {
+            @apply bg-primary-400;
+        }
+
+        &:active {
+            @apply bg-primary-600;
+        }
+
+        &:focus {
+            box-shadow: 0px 0px 0px theme('borderWidth.4')
+                rgba(theme('colors.primary-600'), 0.25);
+        }
+    }
+
+    &--sm {
+        @apply py-1 px-3 text-sm;
+    }
+
+    &--md {
+        @apply py-2 px-5;
+    }
+
+    &--lg {
+        @apply py-3 px-8 text-xl;
+    }
+
+    .loader {
+        margin-top: -3.5px;
+        margin-left: -3px;
+
+        & > div {
+            &.loader-1 div,
+            &.loader-2 div,
+            &.loader-3 div,
+            &.loader-4 div,
+            &.loader-5 div,
+            &.loader-6 div {
+                @apply bg-white;
+            }
+        }
+    }
+}

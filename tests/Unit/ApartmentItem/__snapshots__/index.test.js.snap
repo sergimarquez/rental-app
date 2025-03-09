@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apartment gets rendered 1`] = `
+<div
+  className="mb-4 card"
+>
+  <div
+    className="card-header"
+  >
+    <h2
+      className="h4"
+    >
+      Test Flat
+    </h2>
+  </div>
+  <div
+    className="card-body"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <p>
+          Bright flat in the center
+        </p>
+        <p>
+          <strong>
+            Price: 
+          </strong>
+          140
+          $
+        </p>
+        <p>
+          <span
+            className="text-success"
+          >
+            Available
+          </span>
+        </p>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <p>
+          <strong>
+            Floor size: 
+          </strong>
+          m²
+        </p>
+        <p>
+          <strong>
+            Rooms: 
+          </strong>
+           
+          4
+        </p>
+        <p>
+          <strong>
+            Date added: 
+          </strong>
+           
+          April 20, 2020
+        </p>
+        <p>
+          <strong>
+            Realtor: 
+          </strong>
+          John Doe
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`apartment with different values 1`] = `
+<div
+  className="mb-4 card"
+>
+  <div
+    className="card-header"
+  >
+    <h2
+      className="h4"
+    >
+      House with a view
+    </h2>
+  </div>
+  <div
+    className="card-body"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm"
+      >
+        <p>
+          Panoramic views from this mansion
+        </p>
+        <p>
+          <strong>
+            Price: 
+          </strong>
+          800
+          $
+        </p>
+        <p>
+          <span
+            className="text-danger"
+          >
+            Rented
+          </span>
+        </p>
+      </div>
+      <div
+        className="col-sm"
+      >
+        <p>
+          <strong>
+            Floor size: 
+          </strong>
+          m²
+        </p>
+        <p>
+          <strong>
+            Rooms: 
+          </strong>
+           
+          5
+        </p>
+        <p>
+          <strong>
+            Date added: 
+          </strong>
+           
+          April 20, 2020
+        </p>
+        <p>
+          <strong>
+            Realtor: 
+          </strong>
+          Jane Doe
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
