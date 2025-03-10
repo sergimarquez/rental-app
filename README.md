@@ -3,6 +3,7 @@
 
 **Live DemoApp:** [Luxury Homes](https://luxury-homes-41df8.web.app)
 
+_Test client account: client dot foo.com, pass 500050+18. Ask for admin and realtor_
 
 ### Run project locally
 
