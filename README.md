@@ -1,39 +1,20 @@
-## Luxury Homes Project
+## Rental App Project
 
-### Live app
 
-**Live app:** [Luxury Homes](https://luxury-homes-41df8.web.app)
+**Live DemoApp:** [Luxury Homes](https://luxury-homes-41df8.web.app)
 
-**Test accounts:**<br />
-Admin: admin@foo.com<br />
-Realtor: realtor@foo.com<br />
-Client: client@foo.com<br />
-
-Password: 123456<br />
 
 ### Run project locally
 
-1. Download project from "download"<br />
+1.  Run `npm install`.
 
-2. Run `npm install`<br />
+2. Add `.env` credentials.
 
-3. Copy the following credentials on the `.env` file with ur data<br />
-
-REACT_APP_API_KEY=<br />
-REACT_APP_AUTH_DOMAIN=<br />
-REACT_APP_DATABASE_URL=<br />
-REACT_APP_PROJECT_ID=<br />
-REACT_APP_STORAGE_BUCKET=<br />
-
-5. Run `npm start`<br />
-   Runs the app in the development mode.<br />
-   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Run `npm start`. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Testing
 
-Run `npm test -- -u`<br />
-
-Launches the test runner in the interactive watch mode.<br />
+`npm test -- -u`
 
 ### Build
 
